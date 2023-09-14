@@ -1,0 +1,24 @@
+html {
+	background-image: url(kit_image.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: red;
+}
+body{
+	margin: 100px;
+}
+#box1 {
+	border: 2px solid;
+	color: red;
+}
+h1 {
+	color: yellow;
+}
+#GO {
+	color: green;
+}
+h2 {
+	font-family: arial;
+	text-transform: capitalize;
+}
