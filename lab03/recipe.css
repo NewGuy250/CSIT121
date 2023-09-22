@@ -1,0 +1,24 @@
+html {
+	background-image: url(kit_image.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: red;
+}
+body{
+	padding:100px;
+}
+#box1 {
+	border: 2px solid;
+	color: red;
+}
+h1 {
+	color: yellow;
+}
+h2 {
+	font-family: arial;
+	text-transform: capitalize;
+}
+img{
+	height: 20px;
+}
