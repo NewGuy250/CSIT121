@@ -1,5 +1,5 @@
 html {
-	background-image: src:(photos/tokyo.JPG);
+	background-image: url:("photos/tokyo.JPG");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
