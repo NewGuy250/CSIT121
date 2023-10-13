@@ -1,0 +1,76 @@
+html {
+	background-image: url(photos/tokyo.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+}
+
+a {
+	cursor: pointer;
+	color: black;
+}
+
+a:hover {
+	text-shadow: 3px 3px 0px rgb(0, 0, 0, 0.2);
+}
+
+a:active {
+	margin:3px 0 0 3px;
+	text-shadow: none;
+}
+
+body {
+	font-family: Arial;
+}
+
+.title {
+	text-align: center;
+	background-color: rgb(183, 47, 47, 1.0);
+	margin: 20px 100px 8px 100px;
+	padding: 20px;
+	font-size: 50px;
+	font-weight: bold;
+	color: white;
+	border-radius: 10px;
+	border: solid;
+	border-color: black;
+}
+
+.sub-page {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+	text-align: center;
+	border: solid;
+	font-weight: bold;
+	font-size: 25px;
+	padding: 16px;
+	text-decoration: underline;
+}
+
+.content {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	margin: 15px 40px 20px 40px;
+	background-color: rgb(183, 47, 47, 1.0);
+	padding: 20px;
+	color: white;
+	border-radius: 10px;
+	font-size: 20px;
+	line-height: 40px;
+	border: solid;
+	border-color: black;
+}
+
+.photos {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 100%;
+  	border: solid;
+  	border-color: black;
+}
