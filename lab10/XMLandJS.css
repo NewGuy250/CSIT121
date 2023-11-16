@@ -1,0 +1,58 @@
+html {
+	background-color: rgb(87, 167, 179, 1.0);
+	font-family: Roboto, Arial;
+}
+
+h3, p {
+	margin-bottom: 0;
+}
+
+hr {
+	height: 2px;
+	border: 1px solid white;
+	background-color: white;
+	margin: 0 8px;
+	margin-bottom: 8px;
+}
+
+.title {
+	text-align: center;
+	background-color: white;
+	width: 360px;
+	height: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 20px;
+}
+
+.main-content {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	border: 2px solid white;
+}
+
+.header {
+	text-align: center;
+}
+
+.js-description,
+.xml-description {
+	background-color: white;
+	line-height: 24px;
+	padding: 8px;
+	margin: 8px 8px;
+	border-radius: 4px;
+}
+
+.js-image,
+.xml-image {
+	height: auto;
+	width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+	.main-content {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+}
