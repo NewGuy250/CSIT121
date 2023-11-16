@@ -1,0 +1,190 @@
+html {
+	background-image: url(kit_image.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: red;
+	font-family: Arial;
+
+}
+
+h1 {
+	color: rgb(255, 204, 95, 1.0);
+	font-weight: bold;
+}
+
+h2 {
+	font-family: arial;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+
+img {
+	height: 20px;
+}
+
+li{
+	color: rgb(96, 96, 96, 1.0);
+}
+
+a{
+	color: black;
+}
+
+a:visited{
+	color: blue;
+}
+
+a:hover {
+	text-shadow: 3px 3px 0px rgb(0, 0, 0, 0.2);
+}
+
+a:active {
+	margin:3px 0 0 3px;
+	text-shadow: none;
+	opacity: 0.5;
+}
+
+hr {
+	width: 250px;
+}
+
+td {
+	border-bottom: 1px solid;
+	width: 260px;
+	padding: 4px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+select,
+input,
+label {
+	margin-bottom: 8px;
+	font-weight: bold;
+}
+
+.content {
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+}
+
+.ingredients-instructions {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	border: 2px solid;
+	padding: 8px;
+}
+
+.description {
+	border: 2px solid;
+	color: red;
+	padding: 4px;
+}
+
+.list-head {
+	font-weight: bold;
+}
+
+.instructions {
+	line-height: 30px;
+}
+
+.wrapper {
+	height: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+	.ingredients-instructions {
+	display: block;
+	border: 2px solid;
+	padding: 8px;
+}
+}
+
+.bottom-content {
+	display: grid;
+	grid-template-columns: 1fr 270px;
+}
+
+.nutrition-label {
+	border: 2px solid black;
+	margin-top: 16px;
+	margin-left: 4px;
+	background-color: white;
+	width: 100%;
+}
+
+.nutrition-label-title {
+	color: black;
+	padding-left: 8px;
+}
+
+.nutrition-serving-size,
+.nutrition-serving-per-recipe {
+	padding-left: 8px;
+	line-height: 4px;
+	font-size: 14px;
+}
+
+.calorie-description {
+	font-size: 12px;
+}
+
+.thick-divider {
+	height: 10px;
+	background-color: black;
+}
+
+.med-divider {
+	border-bottom: 1px solid;
+	border-width: 5px;
+}
+
+.right-side {
+	text-align: right;
+	font-weight: bold;
+}
+
+.visitor-form {
+	width: auto;
+	background-color: white;
+	padding: 8px;
+	border: 2px solid black;
+}
+
+.form-information {
+	display: inline-block;
+}
+
+.disclaimer {
+	color: grey;
+}
+
+.form-button {
+	color: white;
+	border: none;
+	background-color: black;
+	height: 40px;
+	width: 60px;
+	border-radius: 20px;
+	vertical-align: middle;
+}
+
+.form-button:hover {
+	cursor: pointer;
+}
+
+.form-button:active  {
+	opacity: 0.75;
+}
+
+.audio {
+	vertical-align: top;
+	height: 16px;
+	border: 1px solid black;
+	border-radius: 8px;
+}
